@@ -1,5 +1,29 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
     "react-router-dom": "^6.14.1"
+  },
+  "type": "module",
+  "name": "amazona",
+  "description": "5. List Products",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hiteshmaan4444/amazona.git"
+  },
+  "author": "Hitesh Maan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hiteshmaan4444/amazona/issues"
+  },
+  "homepage": "https://github.com/Hiteshmaan4444/amazona#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
